@@ -11,14 +11,11 @@ namespace Cv_04_StringStatistics
         static void Main(string[] args)
         {
             string testText =
-                "Americký prezident Joe Biden dal jasně najevo, že nemá v úmyslu vyslat \n"
-+ "americké vojáky do války s Ruskem, řekl podle agentury DPA Psakiová. \n"
-+ "Bezletová zóna by podle ní byla krokem tímto směrem."
-+ "Ukrajinský prezident Volodymyr Zelenskyj podle agentury Reuters řekl, že je "
-+ "načase zvážit zavedení bezletové zóny pro ruské rakety, letadla a vrtulníky. Stát "
-+ "by se tak podle něj mělo v reakci na ruské ostřelování města Charkov, kde "
-+ "podle ukrajinských představitelů zahynulo 11 lidí a desítky dalších utrpěly "
-+ "zranění.";
+                "Toto je retezec predstavovany nekolika radky,\n"
+                + "ktere jsou od sebe oddeleny znakem LF (Line Feed).\n"
+                + "Je tu i nejaky ten vykricnik! Pro ucely testovani i otaznik?\n"
+                + "Toto je jen zkratka zkr. ale ne konec vety. A toto je\n"
+                + "posledni veta!";
             //testText = "Pico! necum nebo? ti dam jebu";
             StringStatistics s = new StringStatistics(testText);
             Console.WriteLine("HIHIHIHI");
